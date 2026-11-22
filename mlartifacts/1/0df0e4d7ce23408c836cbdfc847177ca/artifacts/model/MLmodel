@@ -1,0 +1,35 @@
+artifact_path: model
+flavors:
+  python_function:
+    artifacts:
+      checkpoint:
+        path: artifacts/checkpoint
+        uri: C:\Users\incha\AppData\Local\Temp\tmpwzocyf8h\checkpoint
+    cloudpickle_version: 3.1.2
+    code: null
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pyfunc.model
+    python_model: python_model.pkl
+    python_version: 3.14.0
+    streamable: false
+is_signature_from_type_hint: false
+mlflow_version: 3.18.0
+model_id: null
+model_size_bytes: 268549799
+model_uuid: 1b93ec4a55ae40c5a845293e3f7a96f3
+prompts: null
+run_id: 0df0e4d7ce23408c836cbdfc847177ca
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "text", "required": true}]'
+  outputs: '[{"type": "string", "name": "prediction", "required": true}, {"type":
+    "double", "name": "confidence", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-14 17:23:16.196687'

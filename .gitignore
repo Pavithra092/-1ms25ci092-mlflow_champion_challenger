@@ -1,13 +1,14 @@
 
-.venv/
+.venu/
 venv/
 __pycache__/
 *.pyc
 
 mlruns/
-mlartifacts/
-mlflow.db
+
+
 
 .cache/
 .ipynb_checkpoints/
 .vscode/
+
